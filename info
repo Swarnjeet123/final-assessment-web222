@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ramandeep Kaur</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="normalize.css" type="text/css" rel="stylesheet">
+<script src="info.js"></script>
+</head>
+<body>
+<div class="header">
+	<img src="logo.png" width=100px align="left">
+  <h2>Raman Info</h2>
+</div>
+<div class="navigation">
+ <table border=0 width="100%">
+ <tr>
+  <td align="center"><a href="honesty.html">Honesty</a></td>
+  </tr>
+ </table>
+</div>
+<div class="row">
+  <div class="column side" style="background-color:#aaa;height:550px;">
+  <table border=0 width="100%">
+ <tr>
+ <td align="center"><a href="honesty.html">Honesty</a></td></tr>
+ 
+ </table>
+  
+  </div>
+  <div class="column middle" style="background-color:#bbb;height:550px;">
+  <h1>Information Filling form</h1>
+  <form  name="signup" action="https://httpbin.org/post" onsubmit="return validateForm()" method="post">
+	<p>First name:<input type="text" name="fname" placeholder="First name" required></p>
+	<p>Last name:<input type="text" name="lname" placeholder="Last name" required></p>
+	<p>Password:<input type="password" name="password"></p>
+	<p>Retype Password:<input type="password" name="rpassword"></p>
+	<p>Username:<input type="text" name="uname" placeholder="Username"></p>
+	<p>Graduated:<input type="radio" name="grad" value="graduate" checked></p>
+	<p>Current enrolled:<input type="radio" name="cgrad" value="Current enrolled"></p>
+	<p>Did not graduate:<input type="radio" name="dgrad" value="Did not graduate"></p>
+	<p>Email:<input type="email" placeholder="abc@gmail.com" name="email"  required></p>
+	<p>Age:<input type="number" name="age" min=18 max=60  required></p>
+	<input type="hidden" name="lastName" id="lastName" value="Kaur" />
+	<input type="hidden" name="studentId" id="studentId" value="139428205" />
+	<p><input type="submit" name="submit" value="Submit"></p>
+	<p><input type="reset" name="Reset" value="Reset"></p>
+  </form>
+  </div>
+  <div id="side" class="column side" style="background-color:#ccc;height:550px;">
+  <table border=0 width="100%">
+ <tr>
+ <td align="center"><a href="http://www.google.com">search</a></td>
+ 
+ </tr>
+ </table>
+  
+  </div>
+</div>
+
+<div class="footer">
+  <p>The website belongs to Ramandeep kaur, copy rights are reserved</p>
+</div>
+
+</body>
+</html>
+
+
