@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ramandeep Kaur</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="normalize.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+	<img src="logo.png" width=100px align="left">
+  <h2>Raman Info</h2>
+</div>
+<div class="navigation">
+ <table border=0 width="100%">
+ <tr>
+ <td align="center"><a href="reflection.html">Reflection</a></td>
+ <td align="left"><a href="info.html">Info</a></td>
+ </tr>
+ </table>
+</div>
+<div class="row">
+  <div class="column side" style="background-color:#aaa;">
+  <table border=0 width="100%">
+ <tr>
+ <td align="center"><a href="reflection.html">Reflection</a></td></tr>
+ <tr>
+ <td align="center"><a href="info.html">Info</a></td>
+ </tr>
+ </table>
+  
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+  <h1>Honesty Declaration</h1>
+  <p>I declare that my Final assessment assignment is wholly my own work in
+accordance with Seneca Academic Policy. No part of this assignment has been
+copied manually or electronically from any other source (including web sites)
+except for the information supplied by the WEB222 instructor and / or made
+available in this assignment for my use.</p>
+<p>I also declare that no part of this assignment has been distributed to other
+students.</p>
+<p>Name: Ramandeep Kaur</p>
+<p>Dated: 10-dec-2021</p>
+
+  
+  </div>
+  <div class="column side" style="background-color:#ccc;">
+  <table border=0 width="100%">
+ <tr>
+ <td align="center"><a href="http://www.google.com">search</a></td>
+ 
+ </tr>
+ </table>
+  
+  </div>
+</div>
+
+<div class="footer">
+  <p>The website belongs to Ramandeep kaur, copy rights are reserved</p>
+</div>
+
+</body>
+</html>
+
+
